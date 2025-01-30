@@ -37,13 +37,101 @@
         extend: {
           colors: {
             clifford: "#da373d",
+            green: "#179800"
           },
         },
       },
     };
   </script>
-  <body class="sora-font">
-    <header></header>
+  <body class="sora-font md:container md:mx-auto">
+    <header>
+        <section>
+      <!-- navbar start -->
+      <div class="navbar bg-base-100">
+        <div class="h-14 bg-gradient-to-t from-[#FFFFFF] to-[#EFEBE3]"></div>
+        <div class="navbar-start flex justify-between">
+            <div class="">
+                <img src="./c2-assets/logo-header.png" alt="" class="">
+            </div>
+        
+            <div tabindex="0" role="button" class="btn btn-ghost lg:hidden items-end">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="h-5 w-5"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M4 6h16M4 12h8m-8 6h16"
+                />
+              </svg>
+            </div>
+           
+          
+          
+        </div>
+        <div class="navbar-center hidden lg:flex">
+          <ul class="menu menu-horizontal px-1">
+              <li><a class="text-xl font-normal text-[#111111]">Product</a></li>
+              <li><a class="text-xl font-normal text-[#111111]">Service</a></li>
+              <li><a class="text-xl font-normal text-[#111111]">Contact us</a></li>
+            
+            
+        </div>
+        <div class="ml-24 hidden lg:flex space-x-3">
+            <div>
+            <i class="fa-solid fa-magnifying-glass size-5" style="color: #050505;"></i>  
+            <i class="fa-solid fa-cart-shopping fa-bounce size-5" style="color: #0a0a0b;"></i>
+            </div>
+          
+          <a class="btn border-green">login</a>
+          <a class="btn bg-green">Register</a>
+        </div>
+      </div>
+    
+    <div class="mt-24">
+       <div class="text-center mx-auto"> 
+           <h2 class="font-semibold text-[56px]">Freshness <span class="text-[green]">You Can <br> Count</span> 
+             On, Prices You’ll Love!</h2>
+            <p class="text-xl text-[#111111] font-normal">Shop your daily essentials at unbeatable prices. From fresh produce to pantry <br> staples, we’ve got you covered every day!</p>
+            <img src="./c2-assets/hero-vegetables.png" alt="" class="mx-auto w-[1031px]">
+       </div>
+    </div>
+        </section>
+
+                         <!--   service section -->
+
+        <section class="mt-32 w-[1320px] mx-auto">
+            <h2 class="text-4xl font-semibold text-green">Services</h2>
+             <div class="grid grid-cols-1 lg:grid-cols-3 mt-12 gap-6 w-1/4">
+
+                 <!--  item 1 -->
+             <div class="bg-[#EFEBE3] shadow-lg rounded-lg text-center items-center p-8 " >
+                <img src="./c2-assets/service.png" alt="" class="inline w-full max-w-[200px] mx-auto" >
+                <h2 class="font-semibold text-2xl text-black mt-6">24/7 Service</h2>
+                <p class="text-xl font-light text-black mt-3">How you think about a problem <br> is more important than the problem itself: A quote that emphasizes the importance of a positive attitude</p>
+            </div>
+                 <!--  item 2 -->
+             <div class="bg-[#EFEBE3] shadow-lg rounded-lg text-center items-center p-8 " >
+                <img src="./c2-assets/delivery.png" alt="" class="inline w-full max-w-[200px] mx-auto" >
+                <h2 class="font-semibold text-2xl text-black mt-6">Fast Delivery</h2>
+                <p class="text-xl font-light text-black mt-3">Delivery slogans are short and <br> powerful phrases that capture the essence of a delivery service. They are catchy taglines that communicate the key benefits of the service.</p>
+            </div>
+                 <!--  item 3 -->
+             <div class="bg-[#EFEBE3] shadow-lg rounded-lg text-center items-center p-8" >
+                <img src="./c2-assets/healthy.png" alt="" class="inline w-full max-w-[200px] mx-auto" >
+                <h2 class="font-semibold text-2xl text-black mt-6">Healthy Products</h2>
+                <p class="text-xl font-light text-black mt-3 ">What most people don’t realize <br> is that food is not just calories; it’s information. It actually contains messages that connect to every cell in the body.</p>
+            </div>
+             
+            </div>
+
+        </section>
+    </header>
     <main></main>
     <footer></footer>
   </body>
