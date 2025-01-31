@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/386c3b54d5.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>navbar</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@4.12.23/dist/full.min.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body>
+    <div class="lg:hidden">
+      <img class="mx-4 mt-3" src="./c2-assets/Responsive nav.png" alt="" />
+      <br />
+      <div class="border border-[#179800]"></div>
+    </div>
+    <!--  navbar  -->
+    <div class="max-sm:hidden flex justify-between container mx-auto">
+      <div><img src="./c2-assets/logo-header.png" alt="" /></div>
+
+      <div class=" hidden lg:flex">
+        <ul class="flex justify-evenly gap-5 px-1">
+          <li><a class="text-xl font-normal text-[#111111]">Product</a></li>
+          <li><a class="text-xl font-normal text-[#111111]">Service</a></li>
+          <li><a class="text-xl font-normal text-[#111111]">Contact us</a></li>
+        
+        
+      </div>
+      <div class="ml-24 hidden lg:flex items-center space-x-3">
+        <div>
+        <i class="fa-solid fa-magnifying-glass size-5" style="color: #050505;"></i>  
+        <i class="fa-solid fa-cart-shopping fa-bounce size-5" style="color: #0a0a0b;"></i>
+        </div>
+      
+      <a class="btn border-green">login</a>
+      <a class="btn bg-green">Register</a>
+    </div>
+    </div>
+  </body>
+</html>

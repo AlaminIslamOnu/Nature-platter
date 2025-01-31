@@ -48,57 +48,43 @@
   <header class="sora-font container md:mx-auto">
     
         <section>
-      <!-- navbar start -->
-      <div class="navbar bg-base-100">
-        <div class="h-14 bg-gradient-to-t from-[#FFFFFF] to-[#EFEBE3]"></div>
-          <div class="navbar-start flex justify-between">
-              <div class="">
-                 <img src="./c2-assets/logo-header.png" alt="" class="">
-              </div>
-        
-                  <div tabindex="0" role="button" class="btn btn-ghost lg:hidden items-end">
-                           <svg
-                         xmlns="http://www.w3.org/2000/svg"
-                         class="h-5 w-5"
-                         fill="none"
-                         viewBox="0 0 24 24"
-                         stroke="currentColor">
-                             <path
-                         stroke-linecap="round"
-                         stroke-linejoin="round"
-                         stroke-width="2"
-                         d="M4 6h16M4 12h8m-8 6h16"/>
-                           </svg>
-                   </div>
-           
-          
-          
-        </div>
-        <div class="navbar-center hidden lg:flex">
-            <ul class="menu menu-horizontal px-1">
-              <li><a class="text-xl font-normal text-[#111111]">Product</a></li>
-              <li><a class="text-xl font-normal text-[#111111]">Service</a></li>
-              <li><a class="text-xl font-normal text-[#111111]">Contact us</a></li>
-            
-            
-        </div>
-        <div class="ml-24 hidden lg:flex space-x-3">
-            <div>
-            <i class="fa-solid fa-magnifying-glass size-5" style="color: #050505;"></i>  
-            <i class="fa-solid fa-cart-shopping fa-bounce size-5" style="color: #0a0a0b;"></i>
-            </div>
-          
-          <a class="btn border-green">login</a>
-          <a class="btn bg-green">Register</a>
-        </div>
+      <!-- navbar phone -->
+      <div class="lg:hidden">
+        <img class="mx-4 mt-3" src="./c2-assets/Responsive nav.png" alt="" />
+        <br />
+        <div class="border border-[#179800]"></div>
       </div>
+      <!--  navbar  pc-->
+      <div class="max-sm:hidden flex justify-between items-center container mx-auto">
+        <div><img class="mt-6" src="./c2-assets/logo-header.png" alt="" /></div>
+  
+        <div class=" hidden lg:flex">
+          <ul class="flex justify-evenly gap-5 px-1">
+            <li><a class="text-xl font-normal text-[#111111]">Product</a></li>
+            <li><a class="text-xl font-normal text-[#111111]">Service</a></li>
+            <li><a class="text-xl font-normal text-[#111111]">Contact us</a></li>
+          
+          
+        </div>
+        <div class="ml-24 hidden lg:flex items-center space-x-3">
+          <div>
+          <i class="fa-solid fa-magnifying-glass size-5" style="color: #050505;"></i>  
+          <i class="fa-solid fa-cart-shopping fa-bounce size-5" style="color: #0a0a0b;"></i>
+          </div>
+        
+        <a class="btn border-green">login</a>
+        <a class="btn bg-green">Register</a>
+      </div>
+      </div>
+
+
     
     <div class="mt-24">
        <div class="text-center mx-auto"> 
            <h2 class="font-semibold lg:text-[56px] text-[32px]">Freshness <span class="text-[green]">You Can <br> Count</span> 
              On, Prices You’ll Love!</h2>
             <p class="lg:text-xl text-[16px] text-[#111111] font-normal">Shop your daily essentials at unbeatable prices. From fresh produce to pantry <br> staples, we’ve got you covered every day!</p>
-            <img src="./c2-assets/hero-vegetables.png" alt="" class="mx-auto w-[1031px]">
+            <img src="./c2-assets/hero-vegetables.png" alt="" class="mx-auto w-[1031px] lg:h-[838px]">
        </div>
     </div>
         </section>
@@ -138,7 +124,8 @@
                             <section></section>
 
                          <!--    Arrival & Offers -->
-               <section class="mt-32 lg:w-[1320px] mx-auto container ">
+               <section class="mt-32 lg:w-[1320px] mx-auto container px-4">
+                    <h2 class="text-4xl font-semibold text-green">Arrival & Offers</h2>
                           <div class="grid grid-cols-1 lg:grid-cols-2 gap-5 p-5">
                                    <!--  box 1 -->
                                   <div class="flex justify-between items-center lg:h-[344px]  bg-[#115414] rounded-3xl p-5">
@@ -154,7 +141,7 @@
 
                                   </div>
                                    <!--  box 2 -->
-                                  <div class="flex justify-between items-center bg-[#115414] rounded-3xl p-5">
+                                  <div class="flex justify-between items-center bg-[#102861] rounded-3xl lg:w-[520px]">
                                     <div class="lg:ml-10 mt-10">
                                       <img src="./c2-assets/india-gate-logo.png" alt="" class="">
                                       <button class="mt-7 text-[23px] bg-[#63B76D] rounded-lg">World’s No.1 Rice</button>
@@ -171,9 +158,11 @@
  
 
  </header>
+                             <!--    footer part -->
+
     
     <footer class="lg:h-[658px] bg-green flex justify-center items-center">
-      <div class="grid grid-cols-1 lg:grid-cols-3  text-white lg:w-[1320px] mx-auto container border-2 lg:mt-[400px] lg:gap-52 gap-6 p-5">
+      <div class="grid grid-cols-1 lg:grid-cols-3  text-white lg:w-[1320px] mx-auto container border-2 lg:mt-[370px] lg:gap-52 gap-6 p-5">
          <div>
           <img src="./c2-assets/logo-header.png" alt="">
           <p>Discover a world of treats, toys, and essentials handpicked for your furry friends</p>
